@@ -1,0 +1,52 @@
+
+Fred Daporter
+Navigation principale
+Aller au contenu principal
+Afficher le menu
+
+    Accueil
+    Projets
+    À propos
+    Prix
+    Contact
+
+Le prix juste 
+
+Une méthodologie claire et transparente
+Méthodologie
+Pré-production
+
+L'objectif de la première étape est de rassembler toutes les informations nécessaires au projet. Ensemble, nous nous posons les questions pertinentes pour approfondir les besoins de votre entreprise. J'analyse soigneusement vos exigences et détermine les objectifs du site Web.
+Expérience utilisateur (UX)
+
+À l'aide des informations recueillies lors de la première phase, nous rassemblons et créons un plan de site détaillé. Le plan du site est la liste de tous les sujets principaux du site Web, y compris les sous-sujets. Cette carte clarifiera le contenu qui sera sur le site Web et aidera à comprendre la structure de navigation, pour vous et pour vos futurs clients (les utilisateurs).
+
+Les designers doivent se familiariser avec le contenu du site Web. Quel type d'informations le public cible recherchera-t-il sur le site ? S'agit-il d'informations spécifiques concernant un produit ou un service, des achats en ligne ou peut-être autre chose ? Le contenu et le design sont liés les uns aux autres.
+Design d'Interface (UI)
+
+Dans le cadre du processus de design d'interface, il est essentiel de créer un style cohérent avec l'identité de la marque et les produits ou services proposés. Pendant la phase de conception, l'équipe crée généralement un ou plusieurs prototypes pour le site Web. Un prototype est généralement une image statique, qui représente l'aspect final du site Web. Une bonne idée est de créer des prototypes cliquables pour aider le client à ressentir le site Web avant le début du développement.
+Développement
+
+À ce stade, il convient de traduire les prototypes encore sous forme d'images statiques en HTML/CSS, puis d'ajouter une couche d'animations ou de JavaScript, selon la complexité du design. Une fois cette étape terminée, le développement côté serveur peut débuter pour rendre le site interactif.
+Tests et déploiement
+
+Lorsque le contenu et les visuels sont en place, le processus de test peut être lancé. Chaque page doit être testée pour s'assurer que tous les liens fonctionnent et que le site Web s'affiche correctement dans différents navigateurs. Même l'ordre des mots dans les titres et les descriptions a un impact sur les performances de la page Web dans divers moteurs de recherche. Plus tard, lorsque vous aurez du trafic sur votre site Web, vous pourrez appliquer des techniques de test A/B pour trouver la combinaison optimale.
+Prix
+Une transparence totale
+
+Le prix d'un site web ou d'une application varie en fonction du nombre de pages, des fonctionnalités et d'autres aspects techniques. Nous vous proposons un tableau avec plusieurs gammes de prix à titre indicatif. Les prix TTC et en euros sont susceptibles d’être modifiés à tout moment. Seuls les prix figurant sur le bon de commande dûment accepté sont fermes et définitifs.
+Gamme de prix à titres indicatifs en euros TTC Simple 	Entreprise 	Custom
+Pré-production
+0 - 500€ 	501€ - 2500€ 	sur demande
+Design (UX - UI)
+1500€ - 2500€ 	2500€ - 15000€ 	sur demande
+Développement, test et déploiement
+1000€ - 1500€ 	2500€ - 10000€ 	sur demande
+Navigation secondaire
+
+    Accueil
+    Projets
+    À propos
+    Prix
+    Contact
+

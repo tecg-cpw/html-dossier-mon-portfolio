@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(90deg, rgba(29,29,29,.97) 0%, rgba(29,29,29,.97) 100%), url("../img/noise.png");
+    color:white;
+}
+#menuToggle span{
+    background-color: white;
+}
+/* -------------- */
+/* --- header --- */
+/* -------------- */
+header{
+    border-bottom:1px solid white; 
+}
+/* ------------ */
+/* --- hero --- */
+/* ------------ */
+.hero{
+    background-image: none;
+    padding-bottom: 2.5em;
+}
+/* ------------ */
+/* --- Form --- */
+/* ------------ */
+form{
+    margin-top: 2.5em;
+}
+::placeholder{
+    color: white;
+}
+form li+li{
+    margin-top: 1em;
+}
+input,label, textarea, select{
+    font:inherit;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    background: none;
+    border: none;
+}
+input,select,textarea{
+    border: 1px solid white;
+    padding: 1em 10px;
+    color: white;
+}
+label{
+    margin-bottom: 0.5em;
+}
+.recontact p{
+    text-transform: lowercase;
+}
+.recontact li label, .recontact li input, .newsletter label, .newsletter input{
+    display: inline-block;
+    width: auto;
+}
+.recontact li, .recontact li{
+    display: inline-block;
+    width: auto;
+}
+.recontact li+li{
+    margin-left: 29px;
+}
+.newsletter{
+    border: 1px dashed white;
+    padding: 1em 10px;
+}
+button[type="submit"]{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    background: none;
+    border: none;
+    background-color: white;
+    font: inherit;
+    line-height: 2;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1em;
+}

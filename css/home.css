@@ -1,0 +1,71 @@
+/* --------------------- */
+/* --- projects-list --- */
+/* --------------------- */
+.recent-projects{
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background: linear-gradient(90deg, rgba(29,29,29,.97) 0%, rgba(29,29,29,.97) 100%), url("../img/noise.png");
+    text-align: right;
+
+}
+.recent-projects h2, .clients h2{
+    font-size:2em;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.recent-projects ul{
+    padding-top: 1.5em;
+    overflow: hidden;
+}
+.recent-projects li:nth-child(1){
+    transform: rotate(-3deg);
+    text-align: left;
+}
+.recent-projects li:nth-child(2){
+    text-align: right;
+    transform: rotate(8deg);
+    position: relative;
+    z-index: 10;
+}
+.recent-projects li:nth-child(3){
+    transform: rotate(-4deg);
+    text-align: left;
+    margin-bottom: 3em;
+}
+.see-more{
+    margin-right: 21px;
+}
+/* --------------- */
+/* --- clients --- */
+/* --------------- */
+.clients{
+    padding-top: 2em;
+    padding-bottom: 3.75em;
+}
+.clients li{
+    margin-top: 60px;
+}
+.clients h2{
+    color: #232323;
+}
+.clients ul{
+    text-align: center;
+}
+/* --------------- */
+/* --- clients --- */
+/* --------------- */
+.connect{
+    padding: 60px 20px;
+    background: linear-gradient(90deg, rgba(29,29,29,.97) 0%, rgba(29,29,29,.97) 100%), url("../img/noise.png");
+    text-align: right;
+}
+.connect h2{
+    text-align: left;
+    font-size:2.625em; /*42/16*/
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 1.428571428571429em; /*60/42*/
+    line-height: 1.2;
+}

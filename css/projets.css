@@ -1,0 +1,116 @@
+body{
+    background: linear-gradient(90deg, rgba(29,29,29,.97) 0%, rgba(29,29,29,.97) 100%), url("../img/noise.png");
+    color:white;
+}
+.cta{
+    z-index: 10;
+    position: absolute;
+    box-shadow:rgba(0, 0, 0, 0.2) 0px 7px 30px 0px
+}
+#menuToggle span{
+    background-color: white;
+}
+/* -------------- */
+/* --- header --- */
+/* -------------- */
+header{
+    border-bottom:1px solid white; 
+}
+/* ------------ */
+/* --- hero --- */
+/* ------------ */
+.hero{
+    background-image: none;
+    padding-bottom: 2.5em;
+}
+
+/* --------------------- */
+/* --- projects-list --- */
+/* --------------------- */
+.all-projects{
+    padding-bottom: 3em;
+}
+.all-projects h2{
+    font-size:2em;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+.all-projects li{
+    overflow: hidden;
+    position: relative;
+}
+.all-projects li:nth-child(1){
+    transform: rotate(-3deg);
+}
+.all-projects li:nth-child(1) a.cta{
+    transform: rotate(3deg);
+    top:74px;
+    right: 20px;
+}
+.all-projects li:nth-child(2){
+    transform: rotate(8deg);
+    position: relative;
+    z-index: 1;
+    text-align: right;
+}
+.all-projects li:nth-child(2) a.cta{
+    transform: rotate(-8deg);
+    top:225px;
+    right: 190px;
+}
+.all-projects li:nth-child(3){
+    transform: rotate(-4deg);
+    text-align: left;
+}
+.all-projects li:nth-child(3) a.cta{
+    transform: rotate(4deg);
+    top:114px;
+    right: 20px;
+}
+.all-projects li:nth-child(4){
+    transform: rotate(5deg);
+    position: relative;
+    z-index: 10;
+    text-align: right;
+}
+.all-projects li:nth-child(4) a.cta{
+    transform: rotate(-5deg);
+    top:221px;
+    right: 190px;
+}
+.all-projects li:nth-child(5){
+    transform: rotate(-3deg);
+    position: relative;
+    z-index: 10;
+    text-align: left;
+}
+.all-projects li:nth-child(5) a.cta{
+    transform: rotate(3deg);
+    top:221px;
+    right: 20px;
+}
+
+/* --------------- */
+/* --- clients --- */
+/* --------------- */
+.clients li{
+    margin-top: 60px;
+}
+.clients h2{
+    color: #232323;
+}
+.clients ul{
+    text-align: center;
+}
+/* --------------- */
+/* --- clients --- */
+/* --------------- */
+.connect{
+    padding: 20px;
+}
+.connect h2{
+    font-size:42px;
+    color: white;
+    font-weight: bold;
+}

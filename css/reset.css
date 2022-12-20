@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.hidden{
+    position: absolute;
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	padding: 0 !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	clip: rect(0,0,0,0) !important;
+	white-space: nowrap !important;
+	border: 0 !important;
+}
+/* --------------- */
+/* --- Général --- */
+/* --------------- */
+body{
+    font-family: Helvetica Neue, Arial, sans-serif;
+    background: linear-gradient(90deg, rgba(219,219,219,.97) 0%, rgba(219,219,219,.97) 100%), url("../img/noise.png"); 
+}
+.cta{
+    background: white;
+    background-image: url(../img/arrow.svg);
+    background-position: center right 1em;
+    background-repeat: no-repeat;
+    padding: 1em;
+    padding-right: 3em;
+    color: #232323;
+    text-decoration: none;
+}
+/* ------------------- */
+/* --- Menu Toggle --- */
+/* ------------------- */
+#menuToggle{
+    display: block;
+    position: absolute;
+    top:34px;
+    right: 0px;
+    z-index: 2;
+    padding: 10px 0px 10px 10px;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+#menuToggle a{
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+}
+#menuToggle a:hover{
+    color: tomato;
+}
+#menuToggle input{
+    display: block;
+    width: 43px;
+    height: 40px;
+    position: absolute;
+    border: none;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    opacity: 0.5; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin:0;
+    padding: 10px;
+
+}
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span{
+    display: block;
+    width: 33px;
+    height: 2px;
+    position: relative;
+    background: #000;
+    border-radius: 3px;
+    z-index: 1;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+}
+#menuToggle span+span{
+    margin-top: 7px;
+}
+#menuToggle span:first-child{
+    transform-origin: 0% 0%;
+}
+#menuToggle span:nth-last-child(2){
+    transform-origin: 0% 100%;
+}
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span{
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3){
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2){
+transform: rotate(-45deg) translate(9px, -3px);
+}
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu{
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -342px;
+    padding: 50px;
+    padding-bottom: 19.5625em;
+    padding-top: 10em;
+    background: linear-gradient(90deg, rgba(253, 219, 92, .97) 0%, rgba(253, 219, 92, .97) 100%), url("../img/noise.png"); 
+    background-color: rgb(253, 219, 92);
+    color: #232323;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+#menu li{
+    padding: 10px 0;
+    font-size: 2em;
+    border-bottom: 1px solid #232323;
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.25em;
+}
+#menu li a{
+    display: inline-block;
+    width: 85%;
+    color:#232323;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.25em 0em;
+}
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ol{
+    transform: none;    
+}
+/* -------------- */
+/* --- header --- */
+/* -------------- */
+header{
+    padding: 47px 0px;
+    margin: 0 20px;
+    position: relative;
+    border-bottom:1px solid #000000;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* ------------ */
+/* --- hero --- */
+/* ------------ */
+.hero{
+    padding: 0 20px;
+    padding-bottom: 31.8125em; /*509/16*/
+    background-image: url(../img/home-cyborg1.png);
+    background-position: bottom left -10px;
+    background-repeat: no-repeat;
+}
+.hero h2{
+    font-size: 68px;
+    font-weight: bold;
+    margin-top: 0.470588235294118em;
+    margin-bottom: 0.352941176470588em;
+}
+.hero p{
+    text-transform: uppercase;
+    letter-spacing: -0.017em;
+}
+/* -------------- */
+/* --- Footer --- */
+/* -------------- */
+footer{
+    background: linear-gradient(90deg, rgba(255, 208, 47, .97) 0%, rgba(255, 208, 47, .97) 100%), url("../img/noise.png"); 
+    background-color: rgb(255, 208, 47);
+    color: #232323;
+    padding: 32px 20px;
+}
+footer li{
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid  rgba(29,29,29);
+
+}
+footer li{
+    margin-top: 1em;
+}
+footer a{
+    display: inline-block;
+    width: 93%;
+    color:#232323;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5em 0em;
+}

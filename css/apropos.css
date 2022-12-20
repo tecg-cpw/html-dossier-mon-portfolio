@@ -1,0 +1,114 @@
+/* ------------ */
+/* --- hero --- */
+/* ------------ */
+.hero{
+    background-image: url(../img/about-cyborg1.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+/* --------------- */
+/* --- article --- */
+/* --------------- */
+article{
+    background: linear-gradient(90deg, rgba(29,29,29,.97) 0%, rgba(29,29,29,.97) 100%), url("../img/noise.png");
+    color: white;
+    padding: 2em 20px 2.5em;
+}
+article h3{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+article section+section{
+    margin-top: 2em;
+}
+.story p{
+    font-size: 0.875em;
+    line-height: 1.6;
+}
+.story p+p{
+    margin-top: 1em;
+}
+.skill{
+    font-size: 0.875em;
+    display: block;
+    margin-bottom: 0.714285714285714em;
+}
+.skills li+li{
+    margin-top: 1em;
+}
+.skills meter{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    --background: white;
+    --optimum: rgb(54, 227, 201);
+    --sub-optimum: rgb(0, 255, 217);
+    --sub-sub-optimum: rgb(33, 160, 141);
+
+    /* The gray background in Firefox */
+    background: var(--background);
+}
+  /* The gray background in Chrome, etc. */
+meter::-webkit-meter-bar {
+    background: var(--background);
+}
+
+  /* The green (optimum) bar in Firefox */
+meter:-moz-meter-optimum::-moz-meter-bar {
+    background: var(--optimum);
+}
+
+  /* The green (optimum) bar in Chrome etc. */
+meter::-webkit-meter-optimum-value {
+    background: var(--optimum);
+}
+
+  /* The yellow (sub-optimum) bar in Firefox */
+meter:-moz-meter-sub-optimum::-moz-meter-bar {
+    background: var(--sub-optimum);
+}
+
+  /* The yellow (sub-optimum) bar in Chrome etc. */
+meter::-webkit-meter-suboptimum-value {
+    background: var(--sub-optimum);
+}
+
+  /* The red (even less good) bar in Firefox */
+meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
+    background: var(--sub-sub-optimum);
+}
+  /* The red (even less good) bar in Chrome etc. */
+meter::-webkit-meter-even-less-good-value {
+    background: var(--sub-sub-optimum);
+}
+.socials a{
+    display: inline-block;
+    background-color: white;
+    border-radius: 8px;
+    background-image: url(../img/socials/dribbble.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    line-height: 2.5;
+    text-indent: -9999px;
+}
+.socials a+a{
+    margin-left: 33.7px;
+}
+a.behance{
+    background-image: url(../img/socials/behance.svg);    
+}
+a.linkedin{
+    background-image: url(../img/socials/linkedin.svg);    
+}
+a.twitter{
+    background-image: url(../img/socials/twitter.svg);    
+}
+a.ig{
+    background-image: url(../img/socials/ig.svg);    
+}
